@@ -1,0 +1,29 @@
+.summary-panel {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .score-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .score-circle {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .score-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .score-pass {
+    color: green;
+  }
+  
+  .score-fail {
+    color: red;
+  }
+  

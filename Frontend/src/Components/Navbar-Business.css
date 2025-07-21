@@ -1,0 +1,16 @@
+.nav3{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: rgb(217, 210, 210) solid;
+    border-width: 1px 0px 1px 0px;
+}
+
+.download{
+    text-decoration: none;
+    color: black;
+}
+.settings{
+    text-decoration: none;
+    color: black;
+}

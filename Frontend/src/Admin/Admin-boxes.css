@@ -1,0 +1,209 @@
+.app-container {
+    display: flex;
+    /* margin-top: 1rem; */
+    flex-direction: column;
+    /* min-height: 100vh; */
+    background-color: #f4f6f9;
+    /* min-height: 100vh; */
+  }
+  
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 2rem; */
+    /* padding: 20px; */
+    /* background-color: #f4f6f9; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .app-header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .app-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .app-nav li {
+    margin-right: 20px;
+  }
+  
+  .app-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .app-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-main {
+    padding:0rem 1rem;
+
+  }
+  
+  .app-section {
+    /* background-color: #f4f6f9; */
+    /* padding:5rem 2rem; */
+    /* border-radius: 5px; */
+    /* margin-bottom: 20px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* height: 70vh; */
+  }
+  .navbar-admin-all-documnents{
+   
+    gap: 3rem;
+    align-items: first baseline;
+    padding: 0rem 2rem;
+    /* justify-content: space-evenly; */
+  }
+  .navbar-admin-all-documnents h2{
+    font-size: 1em;
+  }
+  .app-stats {
+    display: flex;
+    gap: 3rem;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+  }
+  
+  .app-stat {
+    text-align: center;
+    display: flex;
+    align-items: first baseline;
+    gap: 0.2rem;
+  }
+  
+  .app-stat h3 {
+    font-size: 1rem;
+    /* font-weight:lighter; */
+    margin-bottom: 10px;
+  }
+  .app-stat p{
+    color: green;
+    padding: 0rem 0.5rem;
+    background-color: rgb(226, 253, 226);
+    border-radius:2rem;
+  }
+  
+   
+  .app-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .app-btn:hover {
+    background-color: #0069d9;
+  }
+  .app-section input{
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: #9c9b9b solid 0.01rem;
+    /* display: inline-block; */
+  }
+  .secondline-admin-audit{
+    /* display: flex; */
+    justify-content: space-between;
+    /* align-items: ; */
+  }
+  .secondline-buttons{
+    display: flex;
+    /* gap: 1rem; */
+    background-color: white;
+    /* border: #9c9b9b solid 0.01rem; */
+    padding: 0.3rem;
+    border-radius: 2rem;
+  }
+  .secondline-buttons a{
+    color: #9c9b9b;
+    /* margin-right: 0.5rem; */
+    /* margin-left: 0.5rem; */
+    text-decoration: none;
+  }
+
+  .app-footer{
+    display: flex;
+    justify-content: flex-end;
+    /* bottom: 1rem; */
+    flex-shrink: 0; 
+    margin-top: auto; 
+    background-color: #f4f6f9;
+    padding: 20px;
+    /* margin-bottom: 1rem; */
+  }
+  .menu1-image{
+    width: 1rem;
+    padding: 0.4rem;
+    border-radius: 0.1rem;
+  }
+  .menu1-image:hover{
+    background-color: #eae9e9;
+    border-radius: 0.6rem;
+  }
+  .menu2-image{
+    width: 1.15rem;
+    padding: 0.4rem;
+    border-radius: 0.1rem;
+    margin-right: 1rem;
+  }
+  .menu2-image:hover{
+    background-color: #eae9e9;
+    border-radius: 0.6rem;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    border-right: 0.1rem rgb(207, 206, 206) solid;
+    /* margin-right: 0rem; */
+  }
+  .shareanddownload{
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+    border-right: 0.1rem rgb(207, 206, 206) solid;
+    /* text-decoration: none; */
+  }
+  .shareanddownload a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+  }
+  .upload-image{
+    /* margin-right: 0.5rem; */
+    width: 1.2rem;
+  }
+  .sharelink{
+    display: flex;
+    align-items: center;
+  }
+  .downloadlink{
+    display: flex;
+    align-items: center;
+  }
+  .filterlink{
+    display: flex;
+    align-items: center;
+    /* margin-right: 0.5rem; */
+  }
+  .secondline-admin-audit input{
+    border: 0rem;
+  }
+  .codesimage{
+    width: 100%;
+    border-radius: 0.5rem;
+  }

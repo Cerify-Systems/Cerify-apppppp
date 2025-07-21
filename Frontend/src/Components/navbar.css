@@ -1,0 +1,87 @@
+.nav {
+    background-color: white; /* Background color for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  }
+  
+  /* General styles for the navbar items */
+  .nav ul {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    list-style-type: none; /* Remove bullet points */
+  }
+  
+  .nav li {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for hover effects */
+  }
+  
+  /* Flexbox settings for larger screens */
+  @media (min-width: 768px) {
+    .nav {
+      flex-direction: row; /* Horizontal layout */
+      align-items: center; /* Center items vertically */
+    }
+  
+    .nav ul {
+      display: flex; /* Display items in a row */
+      gap: 2rem; /* Space between items */
+    }
+  
+    .nav ul.hidden {
+      display: none; /* Hide the menu by default */
+    }
+  
+    .nav ul.block {
+      display: flex; /* Show the menu when open */
+    }
+  }
+  
+  /* Hamburger menu styles */
+  .md\:hidden {
+    display: block; /* Show hamburger icon on small screens */
+  }
+  
+  @media (min-width: 768px) {
+    .md\:hidden {
+      display: none; /* Hide hamburger icon on larger screens */
+    }
+  }
+  
+  /* Hamburger icon styles */
+  button {
+    background: none; /* Remove default button background */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor for button */
+  }
+  
+  /* Navbar item styles */
+  .nav li {
+    padding: 0.5rem 1rem; /* Padding for navbar items */
+    border-radius: 0.375rem; /* Rounded corners */
+  }
+  
+  /* Hover effects for navbar items */
+  .nav li:hover {
+    background-color: #1e3a8a; /* Darker background on hover */
+    color: white; /* White text on hover */
+  }
+  
+  /* Additional styles for specific links */
+  .signup {
+    background-color: #3b82f6; /* Blue background for sign up */
+    color: white; /* White text */
+    border-radius: 0.375rem; /* Rounded corners */
+  }
+  
+  .signup:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+  
+  .login {
+    background-color: #3b82f6; /* Blue background for login */
+    color: white; /* White text */
+    border-radius: 0.375rem; /* Rounded corners */
+  }
+  
+  .login:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }

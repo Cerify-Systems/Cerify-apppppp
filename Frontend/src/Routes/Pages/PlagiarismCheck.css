@@ -1,0 +1,20 @@
+.plagiarism-check {
+    margin-top: 20px;
+  }
+  
+  .check-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+  }
+  
+  .approved {
+    color: green;
+  }
+  

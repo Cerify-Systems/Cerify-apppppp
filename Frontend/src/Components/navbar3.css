@@ -1,0 +1,25 @@
+.nav3{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: rgb(217, 210, 210) solid;
+    border-width: 1px 0px 1px 0px;
+    /* padding: 0.5rem  0.5rem; */
+}
+.auditR{
+    text-decoration: none;
+    border: rgb(183, 182, 182)  1px solid;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.download{
+    text-decoration: none;
+    color: black;
+}
+.settings{
+    text-decoration: none;
+    color: black;
+}
