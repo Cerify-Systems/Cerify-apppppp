@@ -9,7 +9,6 @@ This is a test repository designed for frontend development and testing purposes
 
 - Uses a simplified backend with shell scripts to process .sol files
 - Returns predetermined test responses instead of actual SKLEE analysis
-- Is perfect for frontend development and testing
 - Allows local testing without cloud dependencies
 - Simulates the full application flow without the actual analysis engine
 
@@ -17,8 +16,7 @@ To work with the actual Cerify application with full analysis capabilities, plea
 - Testing frontend changes
 - Development of new UI features
 - Local development without cloud dependencies
-- Quick prototyping and testing
-- Learning the application structure
+
 
 
 ## Features
@@ -213,4 +211,3 @@ For issues and questions:
 2. Review the console logs
 3. Ensure all dependencies are installed
 4. Verify both servers are running # Cerify-Complete
-# Cerify-apppppp
